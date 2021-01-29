@@ -32,7 +32,7 @@ const configDefault: AppConfig = {
   issueTracking: {
     enabled: false,
   },
-  logoPath: null,
+  logoPath: '/static/images/Revolut_White.png',
   numberFormat: null,
   mailClientFeatures: {
     feedbackEnabled: false,
@@ -130,6 +130,14 @@ const configDefault: AppConfig = {
           displayName: 'Snowflake',
           iconClass: 'icon-snowflake',
         },
+        exasol: {
+          displayName: 'Exasol',
+          iconClass: 'icon-exasol',
+        },
+        helios: {
+          displayName: 'Exasol',
+          iconClass: 'icon-helios',
+        },
       },
       filterCategories: [
         {
@@ -179,6 +187,10 @@ const configDefault: AppConfig = {
         github: {
           displayName: 'Github',
           iconPath: '/static/images/github.png',
+        },
+        bitbucket: {
+          displayName: 'Bitbucket',
+          iconPath: '/static/images/Bitbucket.png',
         },
       },
     },

@@ -61,6 +61,8 @@ export enum IconType {
   POSTGRES = 'icon-postgres',
   REDSHIFT = 'icon-redshift',
   SNOWFLAKE = 'icon-snowflake',
+  HELIOS = 'icon-exasol',
+  EXASOL = 'icon-exasol',
 }
 
 // Icon sizes
