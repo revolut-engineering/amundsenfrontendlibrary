@@ -76,7 +76,7 @@ class Config:
     ISSUE_TRACKER_MAX_RESULTS = None  # type: int
 
     # Programmatic Description configuration. Please see docs/flask_config.md
-    PROGRAMMATIC_DISPLAY = None  # type: Optional[Dict]
+    # PROGRAMMATIC_DISPLAY = None  # type: Optional[Dict]
     PROGRAMMATIC_DISPLAY = {
         'RIGHT': {
             "primary_keys": {'display_order': 0},
