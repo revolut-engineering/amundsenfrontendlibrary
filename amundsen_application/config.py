@@ -77,6 +77,21 @@ class Config:
 
     # Programmatic Description configuration. Please see docs/flask_config.md
     PROGRAMMATIC_DISPLAY = None  # type: Optional[Dict]
+    PROGRAMMATIC_DISPLAY = {
+        'RIGHT': {
+            "primary_keys": {'display_order': 0},
+            "service_level_agreement": {'display_order': 1},
+            },
+        'LEFT': {
+            "data_owner": {'display_order': 0},
+            "ETL Frequency (l7d)": {'display_order': 1},
+            },
+        "source_type": {'display_order': 0},
+        "connection": {'display_order': 1},
+        "replication_strategy": {'display_order': 2},
+        "data_source": {'display_order': 3},
+        "post_process": {'display_order': 4},
+        }
 
     # If specified, will be used to generate headers for service-to-service communication
     # Please note that if specified, this will ignore following config properties:

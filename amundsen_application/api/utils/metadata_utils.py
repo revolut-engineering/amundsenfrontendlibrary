@@ -109,7 +109,8 @@ def marshall_table_full(table_dict: Dict) -> Dict:
     table: Table = schema.load(table_dict).data
     results: Dict[str, Any] = schema.dump(table).data
 
-    is_editable = is_table_editable(results['schema'], results['name'])
+    # is_editable = is_table_editable(results['schema'], results['name'])
+    is_editable = False
     results['is_editable'] = is_editable
 
     # TODO - Cleanup https://github.com/lyft/amundsen/issues/296

@@ -13,8 +13,8 @@ const configCustom: AppConfigCustom = {
     sampleRate: 100,
   },
   mailClientFeatures: {
-    feedbackEnabled: true,
-    notificationsEnabled: true,
+    feedbackEnabled: false,
+    notificationsEnabled: false,
   },
   indexDashboards: {
     enabled: false,
@@ -30,7 +30,7 @@ const configCustom: AppConfigCustom = {
     enabled: true
   },
   tableProfile: {
-    isBeta: true,
+    isBeta: false,
     isExploreEnabled: true,
     exploreUrlGenerator: (
       database: string,
@@ -38,12 +38,12 @@ const configCustom: AppConfigCustom = {
       schema: string,
       table: string,
     ) => {
-      return `https://DEFAULT_METABASE_URL/dashboard/3366?schema=${schema}&table_name=${table}`;
+      return `https://metabase.revolutlabs.com/dashboard/3366?schema=${schema}&table_name=${table}`;
     },
   },
   tableLineage: {
     iconPath: '/static/images/metabase.svg',
-    isBeta: true,
+    isBeta: false,
     isEnabled: true,
     urlGenerator: (
       database: string,
@@ -51,7 +51,7 @@ const configCustom: AppConfigCustom = {
       schema: string,
       table: string
     ) => {
-      return `https://DEFAULT_METABASE_URL/dashboard/4825?schema=${schema}&table=${table}`;
+      return `https://metabase.revolutlabs.com/dashboard/6780?schema_name=${schema}&table_name=${table}`;
     },
   },
   badges: {

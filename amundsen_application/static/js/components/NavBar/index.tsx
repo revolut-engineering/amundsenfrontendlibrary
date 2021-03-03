@@ -26,7 +26,7 @@ import SearchBar from 'components/common/SearchBar';
 
 import './styles.scss';
 
-const LOGO_TITLE = 'AMUNDSEN';
+const LOGO_TITLE = '';
 const PROFILE_LINK_TEXT = 'My Profile';
 
 // Props
