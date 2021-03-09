@@ -396,7 +396,7 @@ export class TableDetail extends React.Component<
                   )}
                 </section>
                 <section className="right-panel">
-                  <EditableSection title={Constants.OWNERS_TITLE}>
+                  <EditableSection title={Constants.OWNERS_TITLE} readOnly>
                     <TableOwnerEditor resourceType={ResourceType.table} />
                   </EditableSection>
                   <section className="metadata-section">
