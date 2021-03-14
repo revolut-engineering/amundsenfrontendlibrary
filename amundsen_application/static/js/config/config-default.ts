@@ -32,7 +32,7 @@ const configDefault: AppConfig = {
   issueTracking: {
     enabled: false,
   },
-  logoPath: '/static/images/Revolut_White.png',
+  logoPath: '/static/images/revolut-512.png',
   numberFormat: null,
   mailClientFeatures: {
     feedbackEnabled: false,

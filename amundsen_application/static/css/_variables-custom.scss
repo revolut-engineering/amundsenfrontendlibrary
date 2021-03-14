@@ -2,3 +2,76 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // This file is intentionally left blank and should be used to add new custom variables or overwrite defaults from _variables-default.scss
+
+$brand-color-1: $revskyblue1 !default;
+$brand-color-2: $revskyblue2 !default;
+$brand-color-3: $revskyblue !default;
+$brand-color-4: $revlightblue !default;
+$brand-color-5: $revblue !default;
+
+$divider: $revgrey2 !default;
+$stroke: $revgrey3 !default;
+$stroke-light: $revgrey2 !default;
+$stroke-focus: $revgrey6 !default;
+$stroke-underline: $revgrey4 !default;
+
+/* Scaffolding */
+$body-bg: $revwhite !default;
+$body-bg-secondary: $gray0 !default;
+$body-bg-tertiary: $revgrey1 !default;
+$body-bg-dark: $revblack !default;
+$divider: $revgrey2 !default;
+$stroke: $revgrey3 !default;
+$stroke-light: $revgrey2 !default;
+$stroke-focus: $revgrey6 !default;
+$stroke-underline: $revgrey4 !default;
+
+// Typography
+$text-primary: $revblack !default;
+$text-secondary: $revblack !default;
+$text-tertiary: $revgrey4 !default;
+$text-placeholder: $revgrey4 !default;
+
+$column-name-color: $brand-color-5;
+$link-color: $brand-color-4;
+$link-hover-color: $brand-color-5;
+
+// Buttons
+$btn-primary-bg: $brand-color-4 !default;
+$btn-primary-bg-hover: $brand-color-5 !default;
+$btn-primary-border: transparent !default;
+$btn-primary-border-hover: transparent !default;
+$btn-primary-color: $revwhite !default;
+$btn-primary-color-hover: $revwhite !default;
+
+$btn-default-border: $revgrey2 !default;
+$btn-default-border-hover: $revgrey4 !default;
+$btn-default-color: $revblack !default;
+$btn-default-color-hover: $revgrey7 !default;
+
+// Icons
+$icon-bg: $revgrey2 !default;
+$icon-bg-brand: $brand-color-3 !default;
+$icon-bg-dark: $revgrey6 !default;
+$icon-bg-disabled: $revgrey2 !default;
+
+// Header, Body, & Footer
+$nav-bar-color: $revblack;
+
+// Badges
+$badge-text-color: $text-primary;
+$badge-negative-color: $revorange;
+$badge-neutral-color: $revgrey3;
+$badge-primary-color: $revteal;
+$badge-positive-color: $revgreen;
+$badge-warning-color: $revred;
+$badge-overlay: $revblack;
+
+// Tags
+$tag-bg: $revgrey2;
+$tag-bg-hover: $revgrey4;
+$resource-title-color: $revlightblue;
+
+// Priority
+$priority-text-blocker: $white;
+$priority-bg-color: $revred;

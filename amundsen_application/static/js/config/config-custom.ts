@@ -55,13 +55,9 @@ const configCustom: AppConfigCustom = {
     },
   },
   badges: {
-        'alpha': {
+        'deprecated': {
             style: BadgeStyle.DEFAULT,
-            displayName: 'Alpha',
-        },
-        'partition column': {
-            style: BadgeStyle.DEFAULT,
-            displayName: 'Partition Column',
+            displayName: 'Deprecated',
         },
         'sensitive': {
             style: BadgeStyle.DEFAULT,
@@ -71,9 +67,9 @@ const configCustom: AppConfigCustom = {
             style: BadgeStyle.DEFAULT,
             displayName: 'Confidential',
         },
-        'cde': {
+        'critical': {
             style: BadgeStyle.PRIMARY,
-            displayName: 'CDE',
+            displayName: 'Critical',
         },
         'golden': {
             style: BadgeStyle.SUCCESS,
