@@ -37,7 +37,7 @@ class Config:
     UNEDITABLE_TABLE_DESCRIPTION_MATCH_RULES = []  # type: List[MatchRuleObject]
 
     # Number of popular tables to be displayed on the index/search page
-    POPULAR_TABLE_COUNT = 4  # type: int
+    POPULAR_TABLE_COUNT = 10  # type: int
 
     # Request Timeout Configurations in Seconds
     REQUEST_SESSION_TIMEOUT_SEC = 3

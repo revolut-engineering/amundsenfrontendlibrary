@@ -3,63 +3,63 @@
 
 // This file is intentionally left blank and should be used to add new custom variables or overwrite defaults from _variables-default.scss
 
-$brand-color-1: $revskyblue1 !default;
-$brand-color-2: $revskyblue2 !default;
-$brand-color-3: $revskyblue !default;
-$brand-color-4: $revlightblue !default;
-$brand-color-5: $revblue !default;
+$brand-color-1: $revskyblue1;
+$brand-color-2: $revskyblue2;
+$brand-color-3: $revskyblue;
+$brand-color-4: $revlightblue;
+$brand-color-5: $revblue;
 
-$divider: $revgrey2 !default;
-$stroke: $revgrey3 !default;
-$stroke-light: $revgrey2 !default;
-$stroke-focus: $revgrey6 !default;
-$stroke-underline: $revgrey4 !default;
+$divider: $revgrey2;
+$stroke: $revgrey3;
+$stroke-light: $revgrey2;
+$stroke-focus: $revgrey6;
+$stroke-underline: $revgrey4;
 
 /* Scaffolding */
-$body-bg: $revwhite !default;
-$body-bg-secondary: $gray0 !default;
-$body-bg-tertiary: $revgrey1 !default;
-$body-bg-dark: $revblack !default;
-$divider: $revgrey2 !default;
-$stroke: $revgrey3 !default;
-$stroke-light: $revgrey2 !default;
-$stroke-focus: $revgrey6 !default;
-$stroke-underline: $revgrey4 !default;
+$body-bg: $revwhite;
+$body-bg-secondary: $gray0;
+$body-bg-tertiary: $revgrey1;
+$body-bg-dark: $revblack;
+$divider: $revgrey2;
+$stroke: $revgrey3;
+$stroke-light: $revgrey2;
+$stroke-focus: $revgrey6;
+$stroke-underline: $revgrey4;
 
 // Typography
-$text-primary: $revblack !default;
-$text-secondary: $revblack !default;
-$text-tertiary: $revgrey4 !default;
-$text-placeholder: $revgrey4 !default;
+$text-primary: $revblack;
+$text-secondary: $revgrey6;
+$text-tertiary: $revgrey4;
+$text-placeholder: $revgrey4;
 
-$column-name-color: $brand-color-5;
-$link-color: $brand-color-4;
-$link-hover-color: $brand-color-5;
+$column-name-color: $revblue;
+$link-color: $revlightblue;
+$link-hover-color: $revblue;
 
 // Buttons
-$btn-primary-bg: $brand-color-4 !default;
-$btn-primary-bg-hover: $brand-color-5 !default;
-$btn-primary-border: transparent !default;
-$btn-primary-border-hover: transparent !default;
-$btn-primary-color: $revwhite !default;
-$btn-primary-color-hover: $revwhite !default;
+$btn-primary-bg: $revlightblue;
+$btn-primary-bg-hover: $revblue;
+$btn-primary-border: transparent;
+$btn-primary-border-hover: transparent;
+$btn-primary-color: $revwhite;
+$btn-primary-color-hover: $revwhite;
 
-$btn-default-border: $revgrey2 !default;
-$btn-default-border-hover: $revgrey4 !default;
-$btn-default-color: $revblack !default;
-$btn-default-color-hover: $revgrey7 !default;
+$btn-default-border: $revgrey2;
+$btn-default-border-hover: $revgrey4;
+$btn-default-color: $revblack;
+$btn-default-color-hover: $revgrey7;
 
 // Icons
-$icon-bg: $revgrey2 !default;
-$icon-bg-brand: $brand-color-3 !default;
-$icon-bg-dark: $revgrey6 !default;
-$icon-bg-disabled: $revgrey2 !default;
+$icon-bg: $revgrey2;
+$icon-bg-brand: $revskyblue;
+$icon-bg-dark: $revgrey6;
+$icon-bg-disabled: $revgrey2;
 
 // Header, Body, & Footer
 $nav-bar-color: $revblack;
 
 // Badges
-$badge-text-color: $text-primary;
+$badge-text-color: $revblack;
 $badge-negative-color: $revorange;
 $badge-neutral-color: $revgrey3;
 $badge-primary-color: $revteal;
